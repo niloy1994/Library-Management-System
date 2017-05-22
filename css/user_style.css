@@ -1,0 +1,37 @@
+.gridContainer {
+    width: 88.5%;
+    max-width: 1232px;
+    padding-left: 0.75%;
+    padding-right: 0.75%;
+    margin: auto;
+}
+.header {
+    clear: both;
+    background-image: url("../images/images.jpg");
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    height: 172px;
+}
+.footer {
+    background-image: url("../images/images.jpg");
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    background-color: white;
+    height: 130px;
+    text-align: center;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+.login {
+    float: right;
+    margin-right: 20px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 8px;
+}

@@ -1,0 +1,6 @@
+1. id - varchar- A.I	PK
+2. title - varchar 	200
+3. author - varchar 	200	
+4. ISBN no - varchar	100
+5. total copy - int	
+6. available	int

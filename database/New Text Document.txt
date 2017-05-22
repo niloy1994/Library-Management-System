@@ -1,0 +1,44 @@
+$query = "select" *from users where email='$email';
+$results = mysql_query($connection, $ query);
+if(mysql_num_row($results) >0 )
+{
+	$errorMsg="email already in use"
+}
+
+else{
+	reg successful er jonno ja ja kora lage.
+
+}
+
+
+
+password
+
+
+
+$old= $_POST['oldpass'];
+$new= $_POST['newpass'];
+$retype= $_post['repass'];
+$email= $_POST['email'];
+
+$query= "select * from users where email='$email' and password='$old'";
+
+if($new != $retype)
+{
+	$errormsg="new and retype password dosen't match";
+
+}
+else{
+	$results= mysqli_query($connectionm, $query);
+	if(mysql_num_rows($results) > 0)
+{
+	//update password;
+}
+
+}
+}
+
+
+$query="select *from users where user_type='reader'";
+
+$

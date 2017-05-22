@@ -1,0 +1,20 @@
+1. id - int - A.I- primary key
+2. fullname - varchar	100
+email 	varchar 50
+3. user type - varchar	20
+4. password - varchar	50
+
+
+password should be hash, MD5, SHA1
+
+
+
+md5($password)
+
+
+
+or
+
+
+$password = $_post['password'];
+$passwood = md5['password'];

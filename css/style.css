@@ -1,0 +1,340 @@
+.gridContainer {
+    width: 88.5%;
+    max-width: 1232px;
+    padding-left: 0.75%;
+    padding-right: 0.75%;
+    margin: auto;
+}
+
+.header {
+    clear: both;
+    background-image: url("../images/images.jpg");
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    height: 140px;
+}
+
+.menu {
+    clear: both;
+    float: left;
+    margin: 0;
+    width: 100%;
+    display: block;
+    height: 30px;
+    font-weight: bold;
+}
+
+.main-menu {
+    margin: 0;
+    position: absolute;
+}
+
+.main-menu li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    padding: 6px 120px;
+    transition: all 1s;
+    font-size: 15px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+}
+
+.main-menu li:hover a {
+    color: #5858FA;
+
+}
+
+.main-menu li a {
+    text-decoration: none;
+
+}
+
+.slider {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    display: block;
+    width: 60%;
+    height: 465px;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.flexslider img{
+    height: 422px;
+}
+
+.description {
+    clear: none;
+    float: left;
+    margin-left: 1.6949%;
+    margin-right: 1px;
+    display: block;
+    background:#FFE4E1;
+    width: 36%;
+    height: 410px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.library {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 32.2033%;
+    display: block;
+    background-color:#FFE4E1 ;
+    height: 250px;
+    text-align: center;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 1px;
+
+}
+
+.reader {
+    clear: none;
+    float: left;
+    margin-left: 1.6949%;
+    width: 30%;
+    display: block;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    text-align: center;
+    background-color:silver ;
+    border-radius: 20px;
+    height: 260px;
+    padding-top: 1px;
+}
+
+.clients li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.collection {
+    clear: none;
+    float: left;
+    margin-left: 1.6949%;
+    width: 30%;
+    display: block;
+    background-color:#FFE4E1 ;
+    text-align: center;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 1px;
+    height: 250px;
+}
+
+.footer {
+    background-image: url("../images/images.jpg");
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    background-color: white;
+    height: 130px;
+    text-align: center;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+.login {
+    float: right;
+    margin-right: 20px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.lbutton {
+    float: right;
+}
+
+.logo {
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.loc {
+    float: left;
+    width: 335px;
+    min-height: 173px;
+    border: 2px outset #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 75px;
+    padding-left: 5px;
+    background-color: #FBEFF2;
+    padding-left: 10px;
+}
+
+.locationheading {
+    color: #F2720A;
+
+}
+
+.bc {
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding-left: 75px;
+    color: #5858FA;
+
+}
+
+.aboutus {
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #FBEFF2;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.moreinfo {
+    width: 40%;
+    float: left;
+
+}
+
+.forinfo {
+    text-align: left;
+    font-size: 20px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #5858FA;
+}
+
+.contactus {
+    clear: both;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-bottom: 100px;
+    width: 50%;
+    padding-left: 75px;
+
+}
+
+.contactus {
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #5858FA;
+}
+
+.regform {
+    clear: none;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding-left: 25%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+.field {
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 33px;
+
+}
+
+.regsuccess {
+    clear: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 100px;
+    padding-bottom: 170px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 40px;
+    color: green;
+}
+.deletesuccess {
+    clear: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 100px;
+    padding-bottom: 170px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 40px;
+    color: green;
+}
+.bookform {
+    clear: none;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding-left: 25%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+
+}
+.field {
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 33px;
+
+}
+
+.listitem {
+    clear: none;
+    float: left;
+    margin-right: 1px;
+    display: block;
+    width: 25%;
+    background-color: #FBEFF2;
+}
+
+.list_item_text_style {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.list_item_text_style li a {
+    text-decoration: none;
+
+}
+
+.list_item_text_style li:hover a {
+    color: black;
+}
+
+.list {
+    text-align: left;
+    font-size: 20px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #AB3B1F;
+    font-weight: bold;
+}
+
+.welcome_admin {
+    clear: none;
+    float: left;
+    margin-left: 1%;
+    display: block;
+
+    width: 73%;
+    height: 406px;
+    text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding-top: 100px;
+}

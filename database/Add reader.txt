@@ -1,0 +1,9 @@
+1. id  -int - A.I	p.K
+2. firstname - varchar	50
+3. lastname - varchar	50
+4. Email - varchar	50
+6. proffession - varchar	50
+7. Gender- varchar 	10
+8. contact - varchar	20
+9. address - text 
+10.user_id	int	FK

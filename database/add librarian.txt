@@ -1,0 +1,4 @@
+1. id - int - A.I	pk
+2. fullname - varchar	100	
+3. contaact - varchar	20
+4. email - varchar	50
